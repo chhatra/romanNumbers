@@ -8,7 +8,7 @@
     <ini name="memory_limit" value="-1"/>
   </php>
   <testsuites>
-    <testsuite name="Roman numerals test-suite">
+    <testsuite name="Roman numerals">
       <directory>./tests</directory>
       <!-- Exclude Composer's vendor directory so we don't run tests there. -->
       <exclude>./vendor</exclude>
